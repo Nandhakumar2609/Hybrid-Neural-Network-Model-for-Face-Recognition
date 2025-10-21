@@ -19,19 +19,19 @@ This hybrid model enhances accuracy and performs efficiently on both image-based
 
 🧩 Methodology
 
-1.Data Preprocessing:
+**1.Data Preprocessing:**
 
 Face detection using OpenCV (Haar Cascade/Face Detector).
 
 Cropping, resizing, and normalizing images.
 
-2.Model Architecture:
+**2.Model Architecture:**
 
 CNN: Extracts spatial facial features.
 
 ANN: Classifies extracted embeddings.
 
-3.Training & Evaluation:
+**3.Training & Evaluation:**
 
 Optimizer: Adam
 
@@ -39,7 +39,7 @@ Loss Function: Categorical Crossentropy
 
 Achieved ~92% accuracy
 
-4.Video Testing:
+**4.Video Testing:**
 
 Real-time face recognition using OpenCV VideoCapture.
 
